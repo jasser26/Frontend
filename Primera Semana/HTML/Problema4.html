@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Tareas</title>
+    <link rel="stylesheet" href="/CSS/style3.css">
+</head>
+<body>
+    <!-- Sección de Tareas Pendientes -->
+    <div id="tareas-pendientes">
+        <h2>Tareas Pendientes</h2>
+        <ul>
+            <li>Tarea 1</li>
+            <li>Tarea 2</li>
+            <li>Tarea 3</li>
+            <li>Tarea 4</li>
+            <li>Tarea 5</li>
+        </ul>
+    </div>
+    
+    <!-- Sección de Tareas Completadas -->
+    <div id="tareas-completadas">
+        <h2>Tareas Completadas</h2>
+        <ol>
+            <li>Tarea A</li>
+            <li>Tarea B</li>
+            <li>Tarea C</li>
+        </ol>
+    </div>
+    
+    <!-- Sección de Detalles de Tarea -->
+    <div id="detalles-tarea">
+        <h2>Detalles de Tarea</h2>
+        <p><strong>Tarea 1:</strong> <em>Descripción de la tarea 1</em></p>
+        <p><strong>Tarea 2:</strong> <em>Descripción de la tarea 2</em></p>
+    </div>
+    
+    <!-- Formulario de Agregar Tarea -->
+    <div id="agregar-tarea">
+        <h2>Agregar Nueva Tarea</h2>
+        <form action="/agregar-tarea" method="post">
+            <label for="nueva-tarea">Nueva Tarea:</label>
+            <input type="text" id="nueva-tarea" name="nueva-tarea" required>
+            <input type="submit" value="Agregar">
+        </form>
+    </div>
+</body>
+</html>
