@@ -1,0 +1,27 @@
+.Principal{
+
+    background-color: blanchedalmond;
+    border-radius: BLACK;
+    
+
+}
+
+
+.seccion{
+    margin-top: 40px;
+    background-color: blueviolet;
+    border: 6px solid rgb(15, 15, 15);
+    
+   
+   
+
+}
+
+li {
+    line-height: 25px;
+}
+
+.seccion t
+.seccion th{
+    text-align: start;
+}
